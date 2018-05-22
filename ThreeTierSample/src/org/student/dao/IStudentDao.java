@@ -6,7 +6,7 @@ import org.student.entity.Student;
 
 public interface IStudentDao {
 	public boolean addStudent(Student student) ;
-	//123456789
+	
 	//根据学号修改学生： 根据sno知道待修改的人 ，把这个人 修改成student
 	public boolean updateStudentBySno(int sno,Student student) ;
 	
